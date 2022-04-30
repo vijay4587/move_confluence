@@ -1,0 +1,1 @@
+curl -u $confluence_creds -X GET "$confluence_url/pages/movepage.action?pageId=<page_id>&spaceKey=$confluence_space&targetTitle=<page_title_where_it_should_be_moved>&position=append" -H 'x-atlassian-token: no-check'
